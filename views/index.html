@@ -1,0 +1,55 @@
+<head>
+</head>
+<body>
+    <p id="carInfo"></p>
+    <div id="formulariCotxe">
+        <label>Matrícula: </label></br>
+        <input type="text" id="matricula" class="textInput"></br>
+        <label>Marca: </label></br>
+        <input type="text" id="marca" class="textInput"></br>
+        <label>Color: </label></br>
+        <input type="text" id="color" class="textInput"></br></br>
+        <button onclick="createCar()">Create car</button></br>
+        <p id="noCotxe"></p>
+    </div>
+
+
+    <div id="formulariRodes">
+    </br>
+        <label>Marca roda 1: </label></br>
+        <input type="text" id="marca1" class="textInput"></br>
+        <label>Diàmetre roda 1: </label></br>
+        <input type="text" id="diametre1" class="textInput"></br>
+        <label>Marca roda 2: </label></br>
+        <input type="text" id="marca2" class="textInput"></br>
+        <label>Diàmetre roda 2: </label></br>
+        <input type="text" id="diametre2" class="textInput"></br>
+        <label>Marca roda 3: </label></br>
+        <input type="text" id="marca3" class="textInput"></br>
+        <label>Diàmetre roda 3: </label></br>
+        <input type="text" id="diametre3" class="textInput"></br>
+        <label>Marca roda 4: </label></br>
+        <input type="text" id="marca4" class="textInput"></br>
+        <label>Diàmetre roda 4: </label></br>
+        <input type="text" id="diametre4" class="textInput"></br>
+
+    </br>
+    <button onclick="afegirRodes()">Add Wheels</button> </br>
+    </div>
+    <div id="Error">
+        <p id="resultatError"></p>
+    </div>
+    <div id="resultat">   
+        <p>Cotxe:</p>
+        <p id="resultatCotxe"></p>
+        <p>Rodes:</p>
+        <p id="resultatRodes1"></p>
+        <p id="resultatRodes2"></p>
+        <p id="resultatRodes3"></p>
+        <p id="resultatRodes4"></p>
+    </div>
+    <script src="../controllers/controller.js"></script> 
+    <script src="../models/car.js"></script>
+    <script src="../models/wheel.js"></script>
+
+</body>
